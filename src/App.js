@@ -3,6 +3,7 @@ import './App.css';
 import Student from './components/Student';
 import StudentList from './components/StudentList';
 import NavigationBar from './components/NavigationBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavigationBar/>
       <Student/>
       <StudentList/>
+      <Footer/>
     </div>
   );
 
